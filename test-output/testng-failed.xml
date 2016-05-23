@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="wrapProject.testNG_TestSuites">
+        <methods>
+          <include name="publishTheWrap"/>
+          <include name="beforeClass"/>
+          <include name="createNewWrap"/>
+          <include name="signUpAndLogIn"/>
+        </methods>
+      </class> <!-- wrapProject.testNG_TestSuites -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

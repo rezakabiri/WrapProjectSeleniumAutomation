@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="129619" started-at="2016-05-23T19:23:16Z" finished-at="2016-05-23T19:25:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="129619" started-at="2016-05-23T19:23:16Z" finished-at="2016-05-23T19:25:26Z">
+      <class name="wrapProject.testNG_TestSuites">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:wrapProject.testNG_TestSuites@72a7c7e0]" name="beforeClass" is-config="true" duration-ms="13047" started-at="2016-05-23T12:23:03Z" finished-at="2016-05-23T12:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="signUpAndLogIn()[pri:0, instance:wrapProject.testNG_TestSuites@72a7c7e0]" name="signUpAndLogIn" duration-ms="10321" started-at="2016-05-23T12:23:16Z" finished-at="2016-05-23T12:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpAndLogIn -->
+        <test-method status="PASS" signature="createNewWrap()[pri:0, instance:wrapProject.testNG_TestSuites@72a7c7e0]" name="createNewWrap" duration-ms="77078" started-at="2016-05-23T12:23:26Z" depends-on-methods="wrapProject.testNG_TestSuites.signUpAndLogIn" finished-at="2016-05-23T12:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewWrap -->
+        <test-method status="PASS" signature="publishTheWrap()[pri:0, instance:wrapProject.testNG_TestSuites@72a7c7e0]" name="publishTheWrap" duration-ms="42203" started-at="2016-05-23T12:24:43Z" depends-on-methods="wrapProject.testNG_TestSuites.createNewWrap" finished-at="2016-05-23T12:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishTheWrap -->
+      </class> <!-- wrapProject.testNG_TestSuites -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
